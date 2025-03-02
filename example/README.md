@@ -1,6 +1,6 @@
-# flutter_jailbreak_detection_example
+# flutter_jailbreak_detection_plus_example
 
-Demonstrates how to use the flutter_jailbreak_detection plugin.
+Demonstrates how to use the flutter_jailbreak_detection_plus plugin.
 
 ## Getting Started
 

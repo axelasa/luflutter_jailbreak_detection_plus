@@ -3,7 +3,7 @@ import UIKit
 import IOSSecuritySuite
 public class SwiftFlutterJailbreakDetectionPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_jailbreak_detection", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "flutter_jailbreak_detection_plus", binaryMessenger: registrar.messenger())
     let instance = SwiftFlutterJailbreakDetectionPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

@@ -1,4 +1,4 @@
-package appmire.be.flutterjailbreakdetection
+package axel.asa.flutterjailbreakdetectionplus
 
 import android.content.Context
 import android.provider.Settings
@@ -19,7 +19,7 @@ class FlutterJailbreakDetectionPlusPlugin : FlutterPlugin, MethodCallHandler {
 
 
     override fun onAttachedToEngine(binding: FlutterPluginBinding) {
-        channel = MethodChannel(binding.binaryMessenger, "flutter_jailbreak_detection")
+        channel = MethodChannel(binding.binaryMessenger, "flutter_jailbreak_detection_plus")
         context = binding.applicationContext
         channel.setMethodCallHandler(this)
     }

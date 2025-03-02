@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
 
-@interface FlutterJailbreakDetectionPlugin : NSObject<FlutterPlugin>
+@interface FlutterJailbreakDetectionPlusPlugin : NSObject<FlutterPlugin>
 @end
