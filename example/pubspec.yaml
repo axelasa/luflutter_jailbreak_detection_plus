@@ -1,0 +1,25 @@
+name: flutter_jailbreak_detection_plus
+description: Demonstrates how to use the flutter_jailbreak_detection_plus plugin.
+author: Axel Asa <axel.asa>
+homepage: https://github.com/axelasa/flutter_jailbreak_detection_plus
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_jailbreak_detection:
+    path: ../
+
+flutter:
+  uses-material-design: true
